@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Kumbh+Sans:wght@100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Figtree", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ body {
+    background-color: hsl(47, 88%, 63%);
+
+}
+.black {
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card-body {
+    background: hsl(0, 0%, 100%);
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid black;
+    box-shadow: 0.5rem 0.6rem 0rem black;
+}
+
+.main {
+    padding: 10px;
+    
+}
+.main img {
+    border-radius: 10px;
+    width: 100%;
+}
+.main p {
+    padding: 0;
+    margin-top: 10px;
+    font-size: 13px;
+}
+h6 {
+    display: inline-block;
+    width: 50px;
+    padding: 8px;
+    background: rgb(255, 208, 0);
+    font-size: 12.5px;
+    border-radius: 6px;
+    margin: 14px 0 0 0;
+    font-weight: 800;
+}
+.header p {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+h2 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.photo img {
+    display:inline-block;
+    vertical-align:middle;
+    width: 30px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+h3 {
+    display: inline-block;
+    vertical-align:middle;
+    font-size: 13px;
+    margin-left: 5px
+    
+}
